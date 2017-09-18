@@ -1,0 +1,532 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+.min{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.min .content{
+    width: 100%;
+    height: 100%;
+}
+.min .content li{
+    width: 100%;
+    height: 100%;
+}
+/*=============================第一个大图================================*/
+/*.min ul .first div{
+    height: 100%;
+    background: url("../design_images/img1.jpg")repeat top;
+    !*background-image: -webkit-image-set(url("../design_images/img1.jpg")1x,url("../design_images/img1-1.jpg")2x);*!
+    !*======上面这一句是css3中的代码=========*!
+    background-size: auto 100%;
+    position: relative;
+}*/
+.min .content .first div{
+    width: 100%;
+    height: 100%;
+    background: url("../design_images/bgimg1-2.png")no-repeat top;
+    background-size: 100% 100%;
+}
+.min .content .first div h3{
+    font-weight: 200;
+    font-size: 30px;
+    color: #9593a2;
+    text-align: center;
+    font-family: "宋体";
+    padding-top: 550px;
+}
+/*=================================第二个大图=============================*/
+.min .content .second .secbbox{
+    width: 100%;
+    height: 100%;
+    background: url("../design_images/bgimg2.jpg")no-repeat top;
+    background-size: 100% 100%;
+    position: relative;
+}
+.min .content .second .secbbox h3{
+    text-align: center;
+    font-weight: 200;
+    font-size: 30px;
+    color: #cd959f;
+    font-family: "宋体";
+    padding-top: 142px;
+}
+.min .content .second .secbbox .secsbox{
+    width: 100%;
+    height: 100%;
+    background: url("../design_images/img2.png")no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+}
+/*======================第三个大图======================*/
+.min .content .third{
+    display: block;
+    /*width: 100%;
+    height: 100%;*/
+    position: relative;
+}
+/*.min ul .third div{
+    height: 100%;
+    background-size: auto 100%;
+}*/
+
+/*=================默认背景图==============*/
+.min .content .third .trdbg{
+    height: 100%;
+    background-size: auto 100%;
+    position: relative;
+}
+.min .content .third .trdbg1{
+    background: url("../design_images/bgimg3-1.jpg")no-repeat top;
+    display: block;
+}
+.min .content .third .trdbg2{
+    background: url("../design_images/bgimg3-2.jpg")no-repeat top;
+    display: none;
+}
+.min .content .third .trdbg3{
+    background: url("../design_images/bgimg3-3.jpg")no-repeat top;
+    display: none;
+}
+.min .content .third .trdbg4{
+    background: url("../design_images/bgimg3-4.png")no-repeat top;
+    display: none;
+}
+.min .content .third .trdbg5{
+    background: url("../design_images/bgimg3-5.png")no-repeat top;
+    display: none;
+}
+/*====================第三个大图大背景======================*/
+.min .content .third .trdbbox{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+/*===================第三个大图左右手机===================*/
+.min .content .third .trdbg .phone{
+    width: 100%;
+    height: 476px;
+    position: absolute;
+    top: 108px;
+}
+.min .content .third .trdbg .phone div{
+    width: 169px;
+    height: 476px;
+}
+.min .content .third .trdbg .phone .leftphone{
+    float: left;
+    margin-left: 92px;
+}
+.min .content .third .trdbg .phone .rightphone{
+    float: right;
+    margin-right: 72px;
+}
+.min .content .third .trdbg1 .phone .leftphone{
+    background: url("../design_images/img3-1-left.png")no-repeat -20px -3px;
+    background-size: 120% auto;
+}
+.min .content .third .trdbg1 .phone .rightphone{
+    background: url("../design_images/img3-1-right.png")no-repeat -20px -3px;
+    background-size: 120% auto;
+}
+.min .content .third .trdbg2 .phone .leftphone{
+    background: url("../design_images/img3-2-left.png")no-repeat -20px -3px;
+    background-size: 120% auto;
+}
+.min .content .third .trdbg2 .phone .rightphone{
+    background: url("../design_images/img3-2-right.png")no-repeat -20px -3px;
+    background-size: 120% auto;
+}
+.min .content .third .trdbg3 .phone .leftphone{
+    background: url("../design_images/img3-3-left.png")no-repeat -20px -3px;
+    background-size: 120% auto;
+}
+.min .content .third .trdbg3 .phone .rightphone{
+    background: url("../design_images/img3-3-right.png")no-repeat -20px -3px;
+    background-size: 120% auto;
+}
+.min .content .third .trdbg4 .phone .leftphone{
+    background: url("../design_images/img3-4-left.png")no-repeat -20px -3px;
+    background-size: 120% auto;
+}
+.min .content .third .trdbg4 .phone .rightphone{
+    background: url("../design_images/img3-4-right.png")no-repeat -20px -3px;
+    background-size: 120% auto;
+}
+.min .content .third .trdbg5 .phone .leftphone{
+    background: url("../design_images/img3-5-left.png")no-repeat -20px -3px;
+    background-size: 120% auto;
+}
+.min .content .third .trdbg5 .phone .rightphone{
+    background: url("../design_images/img3-5-right.png")no-repeat -20px -3px;
+    background-size: 120% auto;
+}
+/*====================第三个大图按钮字体颜色================*/
+.min .content .third .carbon{
+    color: #646467;
+}
+.min .content .third .winered{
+    color: #814653;
+}
+.min .content .third .redline{
+    color: #636265;
+}
+.min .content .third .chocolate{
+    color: #71554b;
+}
+.min .content .third .golden{
+    color: #bfb7b1;
+}
+/*======================第三个大图大标题====================*/
+.min .content .third .trdbbox h3{
+    text-align: center;
+    font-weight: 200;
+    font-size: 30px;
+    font-family: "宋体";
+    padding-top: 140px;
+}
+/*======================第三个大图大标题颜色======================*/
+.min .content .third .carbon h3{
+    color: #d3d3d4;
+}
+.min .content .third .winered h3{
+    color: #bd838d;
+}
+.min .content .third .redline h3{
+    color: #d3d3d4;
+}
+.min .content .third .chocolate h3{
+    color: #b39182;
+}
+.min .content .third .golden h3{
+    color: #654f40;
+}
+/*======================第三个大图按钮系列======================*/
+.min .content .third .trdbbox ul{
+    display: block;
+    width: 450px;
+    overflow: hidden;
+    margin: 62px auto 0;
+    position: relative;
+}
+.min .content .third .trdbbox ul li{
+    float: left;
+    /*display: block;*/
+    width: 42px;
+    font-size: 18px;
+    line-height: 36px;
+}
+.min .content .third .trdbbox ul li +li{
+    margin-left: 60px;
+}
+
+/*===========================第三个大图按钮============================*/
+.min .content .third .trdbbox ul li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: 4px solid #252429;
+    border-radius: 50%;
+    margin: 0 20px 30px 0;
+}
+.min .content .third .trdbbox ul .firstlist a{
+    background: url("../design_images/btn.png")no-repeat -15px -4px;
+}
+.min .content .third .trdbbox ul .secondlist a{
+    background: url("../design_images/btn.png")no-repeat -84px -4px;
+}
+.min .content .third .trdbbox ul .thirdlist a{
+    background: url("../design_images/btn.png")no-repeat -154px -4px;
+}
+.min .content .third .trdbbox ul .forthlist a{
+    background: url("../design_images/btn.png")no-repeat -15px -55px;
+}
+.min .content .third .trdbbox ul .fifthlist a{
+    background: url("../design_images/btn.png")no-repeat -84px -55px;
+}
+.min .content .third .trdbbox ul li a:hover{
+    border: 4px solid #4d4d50;
+}
+/*===========================第三个大图按钮下文字部分===================*/
+.min .content .third .trdbbox ul li p{
+    /*display: inline-block;*/
+    cursor: pointer;
+    letter-spacing: 3px;
+    padding-left: 13px;
+    /*color: #626165;*/
+}
+.min .content .third .trdbbox ul li p:hover{
+    color: #aaaaac;
+}
+/*===========================第四个大图==============================*/
+.min .content .forth{
+    display: block;
+   /* width: 100%;
+    height: 100%;*/
+}
+/*===========================第四个大图大背景========================*/
+.min .content .forth .forbbox{
+    /*width: 100%;*/
+    height: 100%;
+    background: url("../design_images/bgimg4.jpg")no-repeat top;
+    background-size: 100% auto;
+    position: relative;
+}
+/*=======================第四个大图轮播图可视区域==================*/
+.min .content .forth .forbbox ul{
+    display: block;
+    text-align: center;
+    width: 55%;
+    height: 90%;
+    overflow: hidden;
+    position: relative;
+    top:19%;
+    left:39%
+}
+/*===================第四个大图轮播图中每个图片区域=============================*/
+.min .content .forth .forbbox ul li{
+    width: 100%;
+    height: 100%;
+    float: left;
+    position: absolute;
+    display: none;
+}
+.min .content .forth .forbbox ul li  div{
+    width: 40%;
+}
+.min .content .forth .forbbox ul li  div img{
+    width: 100%;
+    height: auto;
+}
+/*===================第四个大图轮播图第二张图片信息=================*/
+.min .content .forth .forbbox ul .secondpage{
+    position: relative;
+    display: block;
+}
+.min .content .forth .forbbox ul .secondpage  div{
+   position: absolute;
+}
+/*===================第四个大图轮播图第一张图片信息=================*/
+.min .content .forth .forbbox ul .firstpage{
+    position: relative;
+    top: -55%;
+    display: block;
+}
+.min .content .forth .forbbox ul .firstpage  div{
+    position: absolute;
+    top: 0%;
+}
+/*===================第四个大图大控制轮播图按钮==================*/
+.min .content .forth .forbbox .btn{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 380px;
+}
+.min .content .forth .forbbox .btn .btnleft{
+    width: 50px;
+    height: 50px;
+    background: url("../design_images/img4-lbtn.png")no-repeat;
+    float: left;
+    margin-left: 73px;
+    display: none;
+    cursor: pointer;
+}
+.min .content .forth .forbbox .btn .btnright{
+    width: 50px;
+    height: 50px;
+    background: url("../design_images/img4-rbtn.png")no-repeat;
+    float: right;
+    margin-right: 73px;
+    cursor: pointer;
+}
+/*=================第五个大图====================*/
+.min .content .fifth{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+/*================第五个大图大背景===============*/
+.min .content .fifth .fifthbox{
+    /*width: 100%;*/
+    height: 100%;
+    background: url("../design_images/bgimg5.jpg")no-repeat top;
+    background-size: 100% auto;
+    position: relative;
+}
+/*===============第五个大图大标题===============*/
+.min .content .fifth .fifthbox .title{
+    width: 390px;
+    height: 63px;
+    position: absolute;
+    left: 50%;
+    margin-left: -195px;
+    top: 78px;
+    background: url("../design_images/img5-h.png")no-repeat;
+}
+/*===================第五个大图轮播图==================*/
+.min .content .fifth .fifthbox ul{
+    display: block;
+    height: 270px;
+    width: auto;
+    position: absolute;
+    top: 159px;
+    left: 50%;
+    margin-left: -79px;
+    overflow: hidden;
+}
+.min .content .fifth .fifthbox ul li{
+    width: 158px;
+    float: left;
+    margin-right: 22px;
+}
+.min .content .fifth .fifthbox ul li div{
+     width: 158px;
+     height: 270px;
+     background-repeat: no-repeat;
+     background-position: -2px -2px;
+     background-size: 100% 100%;
+ }
+.min .content .fifth .fifthbox ul .firstpage div{
+    background-image: url("../design_images/img5-1.png");
+}
+.min .content .fifth .fifthbox ul .secondpage div{
+    background-image: url("../design_images/img5-2.png");
+}
+.min .content .fifth .fifthbox ul .thirdpage div{
+    background-image: url("../design_images/img5-3.png");
+}
+.min .content .fifth .fifthbox ul .forthpage div{
+    background-image: url("../design_images/img5-4.png");
+}
+.min .content .fifth .fifthbox ul .fifthpage div{
+    background-image: url("../design_images/img5-5.png");
+}
+.min .content .fifth .fifthbox ul .sixthpage div{
+    background-image: url("../design_images/img5-6.png");
+}
+.min .content .fifth .fifthbox ul .seventhpage div{
+    background-image: url("../design_images/img5-7.png");
+}
+.min .content .fifth .fifthbox ul .eighthpage div{
+    background-image: url("../design_images/img5-8.png");
+}
+.min .content .fifth .fifthbox ul .ninethpage div{
+    background-image: url("../design_images/img5-9.png");
+}
+.min .content .fifth .fifthbox ul .tenthpage div{
+    background-image: url("../design_images/img5-10.png");
+}
+.min .content .fifth .fifthbox ul .eleventhpage div{
+    background-image: url("../design_images/img5-11.png");
+}
+.min .content .fifth .fifthbox ul .twelfthpage div{
+    background-image: url("../design_images/img5-12.png");
+}
+.min .content .fifth .fifthbox ul .thirteenthpage div{
+    background-image: url("../design_images/img5-13.png");
+}
+/*=====================第五个大图左右按钮=================*/
+.min .content .fifth .fifthbox .timebtn{
+    width: 374px;
+    height: 20px;
+    text-align: center;
+    position: absolute;
+    top: 373px;
+    left: 50%;
+    margin-left: -187px;
+}
+.min .content .fifth .fifthbox .timebtn p{
+    display: inline-block;
+    font-size: 18px;
+    color: #fc827f;
+}
+.min .content .fifth .fifthbox .timebtn div{
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-image:url("../design_images/img5-btn.png") ;
+}
+/*====================第五个大图左右深浅按钮样式===================*/
+.min .content .fifth .fifthbox .timebtn .leftlight{
+    background-position: 0 0;
+}
+.min .content .fifth .fifthbox .timebtn .leftdeep{
+    background-position: -84px 0;
+}
+.min .content .fifth .fifthbox .timebtn .rightlight{
+    background-position: -28px 0;
+}
+.min .content .fifth .fifthbox .timebtn .rightdeep{
+    background-position: -56px 0;
+}
+/*===================第五个大图左右按钮浮动==================*/
+.min .content .fifth .fifthbox .timebtn .left{
+    float: left;
+    cursor: pointer;
+}
+.min .content .fifth .fifthbox .timebtn .right{
+    float: right;
+    cursor: pointer;
+}
+/*====================第五个大图底部小盒子====================*/
+.min .content .fifth .fifthbox .fifthsmlbox{
+    width: 100%;
+    padding-top: 415px;
+    text-align: center;
+}
+.min .content .fifth .fifthbox .fifthsmlbox p a{
+    color: #6a3c39;
+}
+/*==================第五个大图坐标轴======================*/
+.min .content .fifth .fifthbox .fifthsmlbox .timeimg{
+    width: 100%;
+    height: 20px;
+    background: url("../design_images/img5-time.png")no-repeat -925px 0;
+    margin-top: 20px;
+}
+/*===========================第五个大图日期=================*/
+.min .content .fifth .fifthbox .fifthsmlbox .timedate{
+   color: #fc827f;
+    margin-top: 10px;
+    margin-bottom: 24px;
+}
+.min .content .fifth .fifthbox .fifthsmlbox .timedate div{
+    display: none;
+}
+.min .content .fifth .fifthbox .fifthsmlbox .timedate .firstdate{
+    display: block;
+}
+.min .content .fifth .fifthbox a .shopbtn{
+    width: 65px;
+    height: 20px;
+    background: url("../design_images/img5-shopbtn.png")no-repeat;
+    margin-left: 650px;
+}
+/*======================页面右侧按钮========================*/
+.min ol{
+    width: 15px;
+    height: 115px;
+    position: fixed;
+    top: 100px;
+    right: 40px;
+    overflow: hidden;
+    display: none;
+}
+.min ol li{
+    width: 7px;
+    height: 7px;
+    background-color: #454547;
+    border-radius: 50%;
+    margin-bottom: 18px;
+}
+.hover{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0,0,0,0.5);
+    border: 2px solid #b8b7b8;
+}

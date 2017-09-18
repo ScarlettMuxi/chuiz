@@ -1,0 +1,245 @@
+/*index1 开始*/
+.w_bgindex1{
+    background: url("../w_images/bg0.jpg")no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.w_index1{
+    position: relative;
+}
+.w_index1 p{
+    color: #808080;
+    font-size:44px;
+    text-align: center;
+    font-weight:normal;
+    line-height:96px;
+    font-family:"simsun";
+}
+.w_index1 ul {
+    display: block;
+    text-align: center;
+    color: #808080;
+}
+.w_index1 ul a  {
+    color: #808080;
+    font-size:12px;
+    display: inline-block;
+    padding:0 18px ;
+}
+.w_index1 ul a:hover{
+    color: #ffffff;
+}
+.w_index1 img{
+    position:absolute;
+}
+.w_index1 .im1{
+    width:21%;
+    left: 33%;
+    top: 25%;
+}
+.w_index1 .im2{
+    width:21%;
+    left: 46%;
+    top: 25%;
+}
+/*index2开始*/
+.w_bgindex2{
+    background-color: #ECEDF1;
+    overflow: hidden;
+}
+.w_index2{
+    position: relative;
+}
+.w_index2 p{
+    color: #313132;
+    padding-top:56px;
+    font-size:30px;
+    text-align: center;
+    font-weight:normal;
+    line-height:84px;
+    font-family:"simsun";
+}
+.w_index2 a{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #84A3E3;
+}
+.w_index2 img{
+    height: 70%;
+    position: absolute;
+    top:28%;
+}
+.w_index2 .im1{
+    left:25%;
+}
+.w_index2 .im2{
+    left:39%;
+}
+.w_index2 .im3{
+    left:58%;
+}
+/*index3开始*/
+.w_bgindex3{
+    background:url("../w_images/1.jpg")no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.w_index3  {
+    position: relative;
+}
+.w_index3 p{
+    color: #D2D1D2;
+    padding-top:106px;
+    font-size:30px;
+    text-align: center;
+    font-weight:normal;
+    line-height:84px;
+    font-family:"simsun";
+}
+.w_index3 a{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #84A3E3;
+}
+.w_index3 img{
+    position: absolute;
+}
+.w_index3 .im1{
+    top:66%;
+    left:49%;
+    width: 2%;
+}
+.w_index3 .im2{
+    top:86%;
+    width:94%;
+    left:3%;
+}
+/*index4开始*/
+.w_bgindex4{
+    background:url("../w_images/bg0.jpg")no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.w_index4 {
+    position: relative;
+}
+.w_index4 p{
+    color: #D2D1D2;
+    padding-top:53px;
+    font-size:30px;
+    text-align: center;
+    font-weight:normal;
+    line-height:80px;
+    font-family:"simsun";
+}
+.w_index4 a{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #84A3E3;
+}
+.w_index4 img{
+    width: 75%;
+    position: absolute;
+    top: 27%;
+    left: 12%;
+}
+/*index5开始*/
+.w_bgindex5{
+    background:url("../w_images/222222.jpg")no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.w_index5  {
+    position: relative;
+}
+.w_index5 p{
+    color: #313132;
+    padding-top:140px;
+    font-size:30px;
+    text-align: center;
+    font-weight:normal;
+    line-height:80px;
+    font-family:"simsun";
+}
+.w_index5>a{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #84A3E3;
+}
+.w_index5 ul{
+    display: block;
+    text-align: center;
+    margin-top: 298px;
+}
+.w_index5 ul a{
+    display: inline-block;
+    color: #968D8A;
+    font-size:16px;
+    margin:0 68px 10px;
+    text-align: center;
+
+}
+.w_index5 ul a span{
+    line-height:34px;
+    font-size:12px;
+}
+.w_index5 img{
+    width: 68%;
+    position: absolute;
+    top: 48%;
+    left: 17%;
+}
+/*右侧小图标*/
+.w_icon {
+    width: 20px;
+    height: 120px;
+    position: fixed;
+    top:98px;
+    right: 28px;
+    text-align: center;
+    line-height: 28px;
+}
+.w_icon span{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #4C4C4E;
+    cursor: pointer;
+}
+.w_icon .active{
+    background-color: #1D1C21;
+    width: 10px;
+    height: 10px;
+    border:2px solid #BCBCBD;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

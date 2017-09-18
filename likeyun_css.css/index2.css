@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.hxydl{
+    width: 450px;
+    height: 550px;
+    background-color:white;
+    border: 1px solid #cccccc;
+    margin-top:20px;
+    margin-left:450px;
+    text-align: center;
+    position: absolute;
+}
+.hxydl img{
+    margin-top:50px;
+}
+.hxydlp{
+    font-size: 20px;
+    margin-top:40px;
+}
+.hxydtn1{
+    margin-top:50px;
+    height: 45px;
+    width: 370px;
+    line-height:45px;
+    border: 1px solid #E0E0E0;
+    position: relative;
+    margin-left:35px;
+}
+.hxybtn1 {
+    height: 45px;
+    width: 45px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.hxydtn1 img{
+    position: absolute;
+    top:-36px;
+    left:13px;
+}
+.hxytext1{
+    width: 320px;
+    height: 41px;
+    margin-left:44px;
+    padding-left:15px;
+    color: #E5E5E5;
+}
+.hxydtn2{
+    margin-top:50px;
+    height: 45px;
+    width: 370px;
+    line-height:45px;
+    border: 1px solid #E0E0E0;
+    position: relative;
+    margin-left:35px;
+    margin-top:15px;
+}
+.hxybtn2 {
+    height: 45px;
+    width: 45px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.hxydtn2 img{
+    position: absolute;
+    top:-36px;
+    left:13px;
+}
+.hxytext2{
+    width: 320px;
+    height: 41px;
+    margin-left:44px;
+    padding-left:15px;
+    color: #E5E5E5;
+}
+.hxydtn3{
+    width: 370px;
+    height: 15px;
+    margin-top:15px;
+    margin-left:35px;
+    font-size: 14px;
+}
+.hxydtn3 input{
+    margin-top:5px;
+}
+.hxydtn3 input,.hxydtn3 p{
+    float: left;
+}
+.hxydtn3 a{
+    float: right;
+    margin-left:15px;
+}
+.hxydtn4{
+    margin-top:30px;
+    display: block;
+    width: 370px;
+    height: 45px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-left:35px;
+    background-color:blue;
+    line-height:45px;
+}
+.hxydtn5{
+    margin-top:30px;
+    width: 370px;
+    height: 1px;
+    background-color:#cccccc;
+    margin-left:35px;
+}
+.hxydtn6{
+    width: 370px;
+    height: 17px;
+    margin-top:20px;
+    margin-left:35px;
+    font-size: 14px;
+}
+.hxydtn6fl{
+    float: left;
+}
+.hxydtn6fl p{
+    float: left;
+}
+.hxydtn6fl div {
+    float: right;
+    margin-top:-50px;
+}
+.hxydtn6fl div a {
+    margin-left:10px;
+}
+.hxydtn6fr{
+    float: right;
+}
+
+

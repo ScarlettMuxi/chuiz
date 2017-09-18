@@ -1,0 +1,742 @@
+/* 页面中心的内容 样式*/
+
+/*顶部导航条*/
+
+.nav-sub-wrapper {
+    height: 62px;
+
+}
+
+.container {
+    height: 30px;
+    margin-top: 31px;
+
+}
+
+/*首页这个文字*/
+.container .active {
+    padding-left: 10px;
+    font-weight: 700;
+}
+
+/*ul 列表*/
+.container-list {
+
+}
+
+/*li 中间的点*/
+.container-list-dian {
+    float: left;
+    line-height: 30px;
+}
+
+/*li 内容*/
+
+.container-list-li {
+    padding: 0 20px;
+    float: left;
+    line-height: 30px;
+}
+
+.container-list li a:hover {
+    color: #6b95ea;
+}
+
+/* 手机下拉效果*/
+.h_.phone {
+    position: relative;
+}
+.phone_hide {
+    width: 1220px;
+    height: 322px;
+    padding-top: 52px;
+    text-align: center;
+    position: absolute;
+    top:60px;
+    left:-58px;
+    background-color: #ededed;
+    border-top: 1px solid #ccc;
+    opacity: 1;
+    display:none;
+}
+.phone_hide ul{
+    margin: 0 auto;
+    width:500px ;
+}
+.phone_hide ul li {
+    float:left;
+    width: 234px;
+    height: 260px;
+    font-size: 14px;
+    position: relative;
+    /*background-color: pink;*/
+}
+
+.phone_hide ul li.first{
+    border-right:1px solid #ccc;
+}
+.phone_hide ul li a p{
+    color:#666;
+    padding-top: 10px;
+    line-height: 14px;
+    font-size: 14px;
+}
+
+.phone_hide ul li a p+p{
+    color:#DB2424;
+}
+
+.phone_hide ul li a img {
+    position: absolute;
+    top:0px;
+    left:36px;
+}
+/* 手机下拉效果end*/
+
+/*轮播图区域----------------------------------------*/
+/*最外面的盒子*/
+.page-home {
+    height: 496px;
+    width: 1220px;
+    /*背景色区分一下 一会删除*/
+    background: #fff;
+    border: 1px solid #cfcfcf;
+    border-radius: 10px;
+    position: relative;
+
+    overflow: hidden;
+    /*visibility:hidden;*/
+}
+
+/*轮播图的点*/
+.banner-list-dian {
+    width:100px;
+    height:8px;
+    line-height:8px;
+    position:absolute;
+    bottom:35px;
+    left:50%;
+    margin-left:-50px;
+}
+.banner-list-dian-ul{
+    width:60px;
+    height:8px;
+    margin:0 auto;
+
+}
+
+.banner-list-dian li{
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    border:1px solid #fff;
+    background: rgba(255,255,255,0.3);
+    opacity:0.3;
+    float:left;
+    cursor:pointer;
+}
+
+.banner-list-dian li:hover{
+    background: rgba(255,255,255,0.9);
+    opacity:0.9;
+
+}
+
+.banner-list-dian .active {
+    background: rgba(255,255,255,0.9);
+    opacity:0.9;
+
+}
+
+.banner-list-dian li+li{
+    margin-left:10px;
+}
+
+/*轮播图的点 end*/
+
+/*轮播图 3D的效果*/
+
+/*轮播图 3D的效果 end*/
+
+/*四个小版块*/
+
+.banner-four-one {
+    height: 200px;
+
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+
+    /*背景色区分一下 一会删除*/
+    background: #fff;
+
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+/*四个小图设置*/
+.banner-four-one-list li {
+    float: left;
+    width: 25%;
+}
+
+.banner-four-one-list li:hover {
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.banner-four-one-list-wrap {
+    /*width:305px;*/
+}
+
+/*--------------------------------------------------------------------*/
+
+/*热门商品*/
+.hot-sales {
+    height: 489px;
+
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+
+    /*背景色区分一下 一会删除*/
+    background: #fff;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+/*标题 */
+.hot-sales-top {
+    height: 59px;
+    line-height: 59px;
+    color: #666666;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fafafa;
+    position:relative;
+}
+
+.hot-sales-top h5 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+/*四个li 标签设置*/
+.hot-sales-bot li {
+
+    /*text-align: center;*/
+}
+
+.hot-sales-bot-list-li .pro-img {
+    width: 206px;
+    margin: 48px;
+
+}
+
+.imgs-wrap {
+    text-align: center;
+}
+
+/*给 li 定位*/
+.hot-sales-bot-list-li {
+    width: 25%;
+    height: 429px;
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    /*position:relative;*/
+}
+
+/* 标题和 小标题*/
+.imgs-wrap .info {
+    position: absolute;
+    top: 274px;
+    left: 0;
+    box-sizing: border-box;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.imgs-wrap .info h6 {
+    /*变成省略号的设置*/
+    overflow: hidden;
+
+    font-size: 16px;
+    white-space: nowrap;
+
+    /*变成省略号的设置*/
+    text-overflow: ellipsis;
+
+    color: #424242;
+}
+
+.imgs-wrap .info p {
+    /*变成省略号的设置*/
+    overflow: hidden;
+
+    padding-top: 7px;
+    font-size: 12px;
+    line-height: 1.2;
+    white-space: nowrap;
+
+    /*变成省略号的设置*/
+    text-overflow: ellipsis;
+
+    color: #b2b2b2;
+}
+
+/* 价格文字*/
+.imgs-wrap .price {
+    display: inline-block;
+    position: absolute;
+    top: 376px;
+    left: 0;
+    width: 100%;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    color: #de4037;
+}
+
+/* 颜色选择小圆点*/
+.choise-color {
+    width: 65px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.dot-list {
+    width:120px;
+    height:20px;
+    line-height:20px;
+}
+
+/*鼠标悬停 变成粗边框*/
+.dot-list li:hover {
+    width: 10px;
+    height: 10px;
+    border: 3px solid #b2b2b2;
+    border-radius: 50%;
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+.dot-list-active {
+    width: 10px;
+    height: 10px;
+    border: 3px solid #b2b2b2;
+    border-radius: 50%;
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+.dot-list-two {
+    width: 10px;
+    height: 10px;
+    margin-top: 1px;
+    border: 1px solid #e5e5e5;
+    border-radius: 50%;
+    list-style: none;
+    position: relative;
+    float: left;
+}
+
+.dot-list li + li {
+    margin-left: 12px;
+}
+
+.dot-list span {
+    display: block;
+    width: 8px;
+    height: 8px;
+    /*background-color: #000;*/
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -4px;
+    margin-left: -4px;
+}
+
+/* li 左边1像素边*/
+/* tmd 不这么设置  底下的小圆点也 加上 左边框了*/
+.hot-sales-bot-list {
+    /*position:absolute;*/
+    /*bottom:29px;*/
+    /*left:104px;*/
+    /*z-index: 20;*/
+    /*width:100px;*/
+    /*font-size:0;*/
+    /*line-height:30px;*/
+}
+
+.hot-sales-bot-list > li + li {
+    border-left: 1px solid #e5e5e5;
+}
+
+/*查看详情  按钮*/
+.hot-sales-bot-list .operator {
+    /*visibility:hidden;*/
+
+    position: absolute;
+    bottom: 29px;
+    left: 104px;
+    z-index: 20;
+    width: 100px;
+    font-size: 0;
+    line-height: 30px;
+
+    /*opacity:0;*/
+
+}
+
+.hot-sales-bot-list .detail-btn {
+    width: 100px;
+    height: 30px;
+
+}
+
+.hot-sales-bot-list .detail-btn a {
+    width: 98px;
+    height: 28px;
+    font-size: 12px;
+    line-height: 28px;
+    display: inline-block;
+    color: #878787;
+    background-color: #f6f6f6;
+    border: 1px solid #ebebeb;
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #eee);
+    background-image: linear-gradient(180deg, #f5f5f5, #eee);
+
+    border-radius: 5px;
+
+}
+
+/*已加入购物车 按钮*/
+.hot-sales-bot-list .detail-btn {
+
+}
+
+/*---------------------------------------------------------------------*/
+/* ul 顶部 1px 边框*/
+.list-heihgt {
+    height: 428px;
+}
+
+.list-line {
+    height: 427px;
+    border-top: 1px solid #cecece;
+}
+
+/*官方精品推荐*/
+.gold-prodocte {
+    height: 918px;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    /*背景色区分一下 一会删除*/
+    background: #fff;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.gold-prodocte-list {
+    width: 610px;
+}
+
+.gold-prodocte-list img {
+    width: 100%;
+}
+
+/*li 样式*/
+
+/*锤子科技动态*/
+.smartisan-company {
+    height: 260px;
+
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+
+    /*背景色区分一下 一会删除*/
+    background: #fff;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+/*标题 */
+.smartisan-company .hot-sales-top {
+    height: 59px;
+    line-height: 59px;
+    color: #666666;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fafafa;
+}
+
+.smartisan-company .hot-sales-top h5 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+/*锤子应用*/
+.smartisan-app {
+    height: 422px;
+
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+
+    /*背景色区分一下 一会删除*/
+    background: #fff;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+/*标题 */
+.smartisan-app .hot-sales-top {
+    height: 59px;
+    line-height: 59px;
+    color: #666666;
+    border-bottom: 1px solid #e5e5e5;
+    background-color: #fafafa;
+}
+
+.smartisan-app .hot-sales-top h5 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 30px;
+}
+
+.smartisan-app .hot-sales-bot .img-wrap {
+    margin: 72px auto 0;
+    width: 90px;
+    height: 90px;
+    /*可有可无的  背静图啊！！！*/
+    background-image: url(../index_images/app-icon-sprite.09cf0f99d091277532779a2b2971e708.png);
+    background-repeat: no-repeat;
+    background-size: auto 90px;
+}
+
+.smartisan-app .hot-sales-bot .img-wrap-two {
+    margin: 72px auto 0;
+    width: 90px;
+    height: 90px;
+    /*可有可无的  背静图啊！！！*/
+    background: url(../index_images/app-icon-sprite.09cf0f99d091277532779a2b2971e708.png) no-repeat -194px 0;
+
+}
+
+.smartisan-app .hot-sales-bot .img-wrap-thr {
+    margin: 72px auto 0;
+    width: 90px;
+    height: 90px;
+    /*可有可无的  背静图啊！！！*/
+    background: url(../index_images/app-icon-sprite.09cf0f99d091277532779a2b2971e708.png) no-repeat -97px 0;
+}
+
+.smartisan-app .hot-sales-bot .img-wrap-four {
+    margin: 72px auto 0;
+    width: 90px;
+    height: 90px;
+    /*可有可无的  背静图啊！！！*/
+    background: url(../index_images/app-icon-sprite.09cf0f99d091277532779a2b2971e708.png) no-repeat -375px 0;
+}
+
+.smartisan-app .hot-sales-bot .pro-info .info {
+    margin-top: 30px;
+}
+
+.smartisan-app .hot-sales-bot .pro-info .info h6 {
+    overflow: hidden;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #424242;
+}
+
+.smartisan-app .hot-sales-bot .pro-info .info p {
+    margin-top: 18px;
+
+    text-align: center;
+}
+
+.smartisan-app .hot-sales-bot .pro-info .info p span {
+    display: block;
+    overflow: hidden;
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #b2b2b2;
+}
+
+.smartisan-app .hot-sales-bot li {
+    width: 304px;
+    height: 362px;
+    float: left;
+    position: relative;
+
+}
+
+.smartisan-app .hot-sales-bot .li {
+    border-left: 1px solid #cecece;
+
+}
+
+.smartisan-app .hot-sales-bot .img-wrap img {
+    width: 100%;
+}
+
+.smartisan-app .hot-sales-bot .hot-sales-bot .pro-info {
+    display: inline-block;
+    position: relative;
+}
+
+.smartisan-app .hot-sales-bot .hot-sales-bot-list .platform {
+    position: absolute;
+    top: 284px;
+    left: 0;
+    width: 100%;
+    height: 16px;
+    text-align: center;
+}
+
+.smartisan-app .hot-sales-bot .hot-sales-bot-list .platform span {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+
+}
+
+.platform-icon-win {
+    background: url(../index_images/win-little.png) no-repeat 0 0;
+}
+
+.platform-icon-ios {
+    background: url(../index_images/ios-little.png) no-repeat 0 0;
+
+}
+
+
+/* 锤子 论坛精选  内容*/
+/*顶部查看更多*/
+.hot-sales-top-more {
+    position:absolute;
+    right:15px;
+    top:0;
+}
+.hot-sales-top-more a{
+    display: inline-block;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    padding: 0 15px 0 19px;
+    line-height: 34px;
+    color: #666;
+    background-color: #fafafa;
+    background-image: linear-gradient(180deg,#fff,#fafafa);
+}
+
+.hot-sales-top-more a:hover{
+    background-color: #eee;
+    background-image: linear-gradient(180deg,#f5f5f5,#eee);
+    color: #666;
+}
+
+
+
+
+/**/
+.hot-sales-bot-list-box {
+    width:245px;
+    height:302px;
+    margin:0 auto;
+    margin-top:30px;
+
+}
+.hot-sales-bot-list-box-info {
+    margin-top: 28px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.hot-sales-bot-list-box-info a{
+    display: block;
+    margin-top: 8px;
+    color: #84a3e3;
+    cursor: pointer;
+    transition: all .15s ease-out;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 1.2;
+}
+
+
+.hot-sales-bot-list-box img {
+    width:100%;
+    border-radius:5px;
+
+}
+.hot-sales-bot-list-box h6 {
+    height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #424242;
+
+}
+.hot-sales-bot-list-box p {
+    display: block;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    margin-top: 13px;
+    height: 35px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #b2b2b2;
+    -webkit-line-clamp: 2;
+
+}
+
+/*箭头*/
+.arrow-right {
+    width:15px;
+    height:15px;
+    display:inline-block;
+
+    margin-left:5px;
+}
+/* 锤子 论坛精选  内容 end*/
+
+
+/* 返回顶部 样式设置*/
+.smartisan-backUp-go{
+    width:54px;
+    height:54px;
+    background: url("../index_images/arrow_up.e06a918c6b2be8e0617dbaa8675c3e02.png") no-repeat 0 0;
+    position:fixed;
+    bottom:30px;
+    right:20px;
+    z-index:1000;
+    opacity:0.7;
+    /*cursor:pointer;*/
+}
+.smartisan-backUp-go a{
+    width:54px;
+    height:54px;
+    display:block;
+}
+
+.smartisan-backUp-go:hover{
+    opacity:1;
+}
+
+
+/*  网页上的 li 鼠标悬停内阴影效果*/
+.banner-four-one-list li:hover {
+
+}
+
+
+
+
+

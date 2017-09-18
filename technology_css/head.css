@@ -1,0 +1,122 @@
+
+
+
+
+
+
+.w_bgtop{
+    background: url("../technology_images/top.png");
+    border-bottom: 1px solid #202020;
+}
+.w_top  {
+    height:98px;
+}
+.w_top h1{
+    display: inline-block;
+    text-indent: -2000px;
+    width: 49px;
+    height: 49px;
+    margin-top: 4px;
+    overflow: hidden;
+    margin-top:24px;
+    margin-right:160px;
+    background: url("../technology_images/sprit.png")no-repeat -1px -208px;
+}
+.w_top.h1 a {
+    display: inline-block;
+    width: 49px;
+    height: 49px;
+}
+.w_top ul{
+    font-size:14px;
+    display: inline-block;
+    line-height: 98px;
+    vertical-align: top;
+}
+.w_top ul li{
+    margin-left:40px;
+    color: #C8C8C8;
+    float: left;
+}
+.w_top ul li a {
+    color: #C8C8C8;
+}
+.w_top ul li a:hover {
+    color: white;
+}
+.w_top .u1 a{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: url("../technology_images/2.png")no-repeat;
+}
+.w_top .u1 .a1{
+    background-position: -156px -2px;
+}
+.w_top .u1 .a2{
+    width: 23px;
+    height: 19px;
+    background-position: -153px -22px;
+}
+.w_top .u1 em{
+    padding-left:5px;
+    line-height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top:-14px;
+    width: 14px;
+    height: 20px;
+    border-radius: 48%;
+    background-color: #9A9A9A;
+    box-shadow: 0 0 2px black;
+    color: white;
+}
+.w_top .u1 em:hover{
+    cursor: pointer;
+}
+/*top结束*/
+
+/*nav开始*/
+.w_bgnav{
+    height: 36px;
+    background-color: #171717;
+    border-top: 1px solid #0B0B0B;
+    border-bottom: 1px solid #202020;
+}
+.w_nav .u1 li{
+    margin-right:28px;
+    line-height:36px;
+    float: left;
+}
+.w_nav li a {
+    color: #808080;
+    font-size:12px;
+}
+.w_nav li a:hover{
+    color:white;
+}
+.fr{
+    width: 370px;
+}
+.w_nav .u2 li{
+    float: left;
+    margin-top:10px;
+    margin-right:18px;
+    vertical-align: middle;
+}
+.w_nav em{
+    margin-right:45px;
+    float: right;
+}
+.w_nav em a{
+    margin-top:3px;
+    display: inline-block;
+    text-align: center;
+    width: 98px;
+    line-height:28px;
+    background-color: #254BA0;
+    border-radius: 4px;
+    font-size:12px;
+    color: white;
+}
+/*nav结束*/

@@ -1,0 +1,332 @@
+
+.y-apps-topnav{
+    height: 90px;
+    background-color: #e5e5e5;
+    position: relative;
+}
+.y-nav-more-box{
+    border-bottom: 1px solid #ccc;
+    width: 1220px;
+    margin: 0 auto;
+}
+.y-nav-more-box ul li{
+   float: left;
+}
+.y-nav-more-box ul li a {
+    line-height:90px;
+    margin: 0 25px;
+    font-size: 14px;
+    color: #757575;
+}
+.y-nav-more-box ul li a:hover{
+    color: #616161;
+}
+.y-nav-more-box .y-li {
+    margin-left: 0;
+    font-size: 14px;
+    font-weight:700;
+    color: #616161;
+}
+.y-nav-top{
+    float: left;
+    margin-left: 25px;
+}
+
+.y-nav-top a{
+    line-height:90px;
+    font-size: 14px;
+    color: #757575;
+    border-bottom: 1px solid hotpink;
+}
+.y-nav-bom{
+    display: none;
+    height: 250px;
+    width: 100%;
+    background-color:#fff;
+    position: absolute;
+    top:90px;
+    left:0;
+    z-index: 3;
+}
+.y-nav-bom-w{
+    width: 1220px;
+    margin: 0 auto;
+    border-top: 1px solid #ccc;
+}
+.y-nav-bom-w ul{
+    padding-top: 63px;
+    width: 520px;
+    margin: 0 auto;
+}
+.show .y-nav-bom ul li a{
+    line-height: 0;
+    text-align:center;
+}
+.show .y-nav-bom ul li a p{
+    line-height: 25px;
+}
+/*轮播图部分开始*/
+ #y-banner{
+    height: 512px;
+    background-color: #e5e5e5;
+     /*margin-bottom: 10px;*/
+    /*position: relative;*/
+}
+.y-banner-w{
+    width: 1220px;
+    height: 502px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    }
+.y-banner-w-img {
+    width: 1220px;
+}
+.y-banner-w .y-banner-w-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4880px;
+    z-index: 1;
+}
+.y-banner-w-img li{
+    float: left;
+}
+.y-banner-w .y-banner-w-img li a img{
+    width: 1220px;
+    height:100%;
+}
+.y-banner-w-spot{
+    position: absolute;
+    top:470px;
+    left: 600px;
+    z-index: 2;
+}
+.y-banner-w-spot .current {
+    background-color:hotpink;
+}
+.y-banner-w-spot li {
+    float: left;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: pink;
+    cursor: pointer;
+    margin-left: 10px;
+}
+/*主体应用下载部分*/
+.y-use{
+    background-color: #e5e5e5;
+    height: 1255px;
+    /*margin-top: 10px;*/
+}
+.y-use-w{
+    background-color: white;
+    height: 1203px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.y-use-w ul {
+    width: 1220px;
+    height: 400px;
+    border-bottom: 1px solid #ccc;
+}
+.y-use-w ul li{
+    width: 304px;
+    height: 400px;
+    float: left;
+    border-right: 1px solid #ccc;
+    position: relative;
+}
+.y-use-w ul li a{
+    width: 304px;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.y-use-w ul li a .y-img{
+    width: 100px;
+    height: 100px;
+    margin-top: 88px;
+    margin-left: 100px;
+}
+.y-use-w ul li a img{
+    width: 100%;
+    height: 100%;
+
+}
+.y-use-w ul li a p{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 50px;
+    color: #666666;
+    font-weight: 700;
+}
+.y-use-w ul li a h1{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 50px;
+    color: aqua;
+}
+.y-use-w ul .use-ww{
+    border-right: 0;
+}
+.y-use-w ul li img{
+    height: 100%;
+    width: 100%;
+}
+.y-use-w .y-use-btn {
+    width: 610px;
+    float: left;
+}
+/*第一行第一个下载*/
+.y-use-iz {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 304px;
+}
+.y-use-iz .y-use-ix a {
+    display: block;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #5a85dc;
+    border-radius: 10px;
+    background-color: #5a85dc;
+    margin-top: 120px;
+    margin-left: 50px;
+    position:relative;
+}
+
+.y-use-iz .y-use-ic a {
+    width: 200px;
+    height: 50px;
+    border: 1px solid #5a85dc;
+    border-radius: 10px;
+    background-color: #5a85dc;
+    margin-top: 200px;
+    margin-left: 50px;
+    display:block;
+
+}
+.y-use-iz .y-use-iv a{
+    height: 18px;
+    margin-top: 50px;
+}
+.y-use-iz .y-use-ix img,.y-use-iz .y-use-ic  img{
+    margin: 0 10px;
+    width: 17px;
+    height: 21px;
+}
+
+.y-use-iz .y-use-ix  span{
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    margin-left:45px;
+    color: #f6f6f6;
+
+}
+.y-use-iz .y-use-ic  span{
+    height: 50px;
+    line-height: 50px;
+    font-size: 12px;
+    margin-left:60px;
+    color: #f6f6f6;
+}
+.y-use-iz .y-use-ix  span .icon{
+    width:17px;
+    height: 21px;
+    display:inline-block;
+    background: url(../yingyong_images/icon-handshaker-win_26adee39d1.png) no-repeat 0 0 ;
+    position:absolute;
+    top:13px;
+    left:25px;
+}
+
+.y-use-iz .y-use-ic  span .icon{
+    width:17px;
+    height: 21px;
+    display:inline-block;
+    background: url(../yingyong_images/icon-handshaker-mac_2c24ccfc15.png) no-repeat 0 0 ;
+    position:absolute;
+    top:12px;
+    left:40px;
+}
+
+.y-use-iz .y-use-iv a {
+    display: block;
+    margin-top: 300px;
+    text-align: center;
+    color: aqua;
+
+}
+.y-use-ib{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 304px;
+    display: none;
+}
+.y-use-ib  .y-use-in a{
+    display: block;
+    margin-top: 120px;
+    width: 188px;
+    height: 62px;
+    border-radius: 10px;
+    background-color: #fafafa;
+    line-height:62px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    margin-left: 50px;
+}
+.y-use-ib  .y-use-in a:hover{
+    color:#808080;
+}
+.y-use-ib h2 {
+    margin-top: 235px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    color: #bdbdbd;
+}
+.y-use-btn .y-use-ib  h1 a {
+    position: absolute;
+    top:0;
+    left: 0;
+    display: block;
+    text-align: center;
+    margin-top: 310px;
+    font-size: 12px;
+    color: aqua;
+}
+/*主体部分 敬请期待*/
+.y-use .y-use-w .y-use-right{
+    position: relative;
+    /*background-color: red;*/
+    width:610px;
+    height: 400px;
+    float: right;
+}
+.y-use .y-use-w .y-use-right img{
+    float: left;
+    margin-top: 140px;
+    margin-left: 140px;
+}
+.y-use .y-use-w .y-use-right span{
+    float: left;
+    margin-top: 160px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #9999a6;
+}
+.y-use .y-use-w .y-use-right .y-use-ik {
+    position: absolute;
+    top:180px;
+    left: 230px;
+    color: #c3cbd4;
+}

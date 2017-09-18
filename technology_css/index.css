@@ -1,0 +1,372 @@
+/*中间图片部分开始*/
+/*四张大背景图*/
+.banner{
+    height: 579px;
+    position: relative;
+}
+.banner-in{
+    width: 100%;
+    height: 579px;
+    overflow: hidden;
+}
+
+.banner-in ul li{
+    height: 579px;
+    display: none;
+}
+
+.banner-in ul li:first-child{
+    display: block;
+}
+
+.black-bgc{
+    height: 579px;
+    background:url("../technology_images/overview-bg@2x.ce3bbaa46eb8e9876fe40b6c85eb4a3d.jpg") no-repeat 50%;
+    background-size:auto 100%;
+}
+
+.red-bgc{
+    height: 579px;
+    background:url("../technology_images/overview-bg-red@2x.32a64f10802339d37ff774ff4af7a500.jpg") no-repeat 50%;
+    background-size:auto 100%;
+}
+.gold-bgc{
+    height: 579px;
+    background:url("../technology_images/overview-bg@2x.ce3bbaa46eb8e9876fe40b6c85eb4a3d.jpg") no-repeat 50%;
+    background-size:auto 100%;
+}
+.brown-bgc{
+    height: 579px;
+    background:url("../technology_images/overview-bg-brown@2x.6f95b145bfaadbfaa1d65f5cd76a747d.jpg") no-repeat 50%;
+    background-size:auto 100%;
+}
+.yellow-bgc{
+    height: 579px;
+    background:url("../technology_images/overview-bg-yellow@2x.ef29fdfe689ccb34a863307a6ae40381.jpg") no-repeat 50%;
+    background-size:auto 100%;
+}
+
+/*五个小圆点*/
+.ban-l{
+    height: 579px;
+    width: 620px;
+}
+.yuandian{
+    width: 620px;
+    height: 46px;
+    position: absolute;
+    left: 95px;
+    bottom: 100px;
+}
+.yuandian div{
+    width: 30px;
+    height: 30px;
+    border:3px solid #2F2F34;
+    border-radius: 50%;
+    float: left;
+    margin-left:40px;
+    cursor: pointer;
+}
+.yuandian div.current{
+    width: 30px;
+    height: 30px;
+    border:3px solid #868695;
+    border-radius: 50%;
+    float: left;
+    margin-left:40px;
+    cursor: pointer;
+}
+
+.yuandian div span{
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-size: auto 100%;
+}
+.btn1{
+    background:url("../technology_images/select@2x.f07d46e0506848c6849950496b863c70.png") no-repeat;
+}
+.btn2{
+    background:url("../technology_images/select@2x.f07d46e0506848c6849950496b863c70.png") no-repeat -80px;
+}
+.btn3{
+    background:url("../technology_images/select@2x.f07d46e0506848c6849950496b863c70.png") no-repeat -159px 0;
+}
+.btn4{
+    background:url("../technology_images/select@2x.f07d46e0506848c6849950496b863c70.png") no-repeat -324px 0;
+}
+.btn5{
+    background:url("../technology_images/select@2x.f07d46e0506848c6849950496b863c70.png") no-repeat -241px 0;
+}
+
+
+/*右边部分*/
+
+.ban-r{
+    height: 649px;
+    position: absolute;
+    top: 85px;
+    left: 862px;
+    overflow: hidden;
+    width: 449px;
+    float: right;
+    /*margin-top:-500px;*/
+    /*margin-right:300px;*/
+}
+
+.ban-r li {
+    float: left;
+}
+.black,.red,.gold,.brown,.yellow{
+    width: 449px;
+    height: 649px;
+}
+
+
+
+
+
+
+
+/*中间图片部分结束*/
+
+/*main主要文字内容开始*/
+.main{
+    height: 7570px;
+    width: 1220px;
+    margin:210px auto 0;
+}
+
+.main-top ul li{
+    width: 1220px;
+}
+.main-one{
+    height: 185px;
+}
+.main-l{
+    width: 259px;
+    height: 185px;
+    float: left;
+    border-top: 2px solid #DCDCDC;
+}
+h4{
+    font-size:16px;
+    font-family: PingFang SC,Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,STHeiti,\\534E\6587\7EC6\9ED1,sans-serif;
+    display: inline-block;
+    margin-left:43px;
+    margin-top:43px;
+}
+.one{
+    float: right;
+    width:868px;
+    height: 142px;
+    border-top: 2px solid #DCDCDC;
+    padding-top:43px;
+    font-family: PingFang SC,Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,STHeiti,\\534E\6587\7EC6\9ED1,sans-serif;
+}
+.title{
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+}
+.one-l{
+    width: 265px;
+    height: 185px;
+    padding-left: 45px;
+    float: left;
+    line-height: 25px;
+}
+.one-c{
+    width: 270px;
+    height: 185px;
+    float:left;
+    line-height: 25px;
+}
+.one-r{
+    width: 288px;
+    height: 185px;
+    float: left;
+    line-height: 25px;
+}
+.jishensizi{
+    width: 673px;
+    height: 329px;
+    margin-top:58px;
+}
+
+.main-tow{
+    height: 278px;
+}
+.main-three{
+    height: 621px;
+}
+.main-fore{
+    height: 248px;
+}
+.main-five{
+    height: 650px;
+}
+.main-six{
+    height: 380px;
+}
+.main-seven{
+    height: 183px;
+}
+.main-eight{
+    height: 329px;
+}
+.main-ten{
+    height: 350px;
+}
+.main-11{
+    height: 152px;
+}
+.main-12{
+    height: 234px;
+}
+.main-13{
+    height: 486px;
+}
+.main-14{
+    height: 240px;
+}
+.main-16{
+    height: 791px;
+}
+
+.tow-l{
+    width: 673px;
+    padding-left: 45px;
+    float: left;
+    line-height: 30px;
+}
+.table-first{
+    /*padding-left: 45px;*/
+    margin-top:80px;
+    margin-left:45px;
+}
+.kacao{
+    width: 826px;
+    height: 300px;
+    float: right;
+    margin-top:40px;
+}
+
+.tow-bottom{
+    width: 826px;
+    height: 178px;
+    float: left;
+    margin-top:20px;
+    margin-left:45px;
+    font-family: PingFang SC,Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,STHeiti,\\534E\6587\7EC6\9ED1,sans-serif;
+}
+.tow-bottom .tex1{
+    font-size:14px;
+    color: black;
+    line-height: 25px;
+}
+.tow-bottom .tex2{
+    color: #CDCDCD;
+    line-height: 20px;
+}
+.yinpin{
+    width: 797px;
+    height: 134px;
+    margin-left:45px;
+}
+.shipin{
+    margin-left:45px;
+}
+.tex3{
+    color: #CDCDCD;
+    margin-top:15px;
+}
+.img1{
+    width: 850px;
+}
+.imgtext,.imgtext2{
+    width: 867px;
+    margin-top:10px;
+    margin-left:44px;
+}
+
+.imgtext4 span,.imgtext span,.imgtext2 span{
+    width: 100px;
+    height: 24px;
+    display: inline-block;
+}
+.imgtext3{
+    margin-left:30px;
+}
+.imgtext3 span{
+    height: 24px;
+    display: inline-block;
+    width: 70px;
+    margin-top:10px;
+    margin-left:25px;
+}
+
+.imgtext4{
+    width: 867px;
+    margin-top:10px;
+    margin-left:40px;
+}
+
+.three-bottom{
+    width: 826px;
+    height: 178px;
+    float: left;
+    margin-top:40px;
+    margin-left:45px;
+    font-family: PingFang SC,Helvetica Neue,Helvetica,Arial,Hiragino Sans GB,Microsoft Yahei,\\5FAE\8F6F\96C5\9ED1,STHeiti,\\534E\6587\7EC6\9ED1,sans-serif;
+}
+.three-bottom .tex2{
+    color: #CDCDCD;
+    line-height: 20px;
+}
+.mian-17{
+    height: 735px;
+}
+.main-18{
+    height: 470px;
+    width: 1220px;
+    margin-top:880px;
+}
+.main-19{
+    height: 331px;
+    margin-top:60px;
+}
+
+.three-c{
+    width: 400px;
+    height: 185px;
+    float: right;
+    line-height: 25px;
+}
+.main-bottom{
+    width: 1220px;
+    height: 133px;
+    padding-top:45px;
+    border-top: 2px solid #DCDCDC;
+}
+.main-bottom p{
+    padding-left: 45px;
+    line-height: 25px;
+}
+
+
+
+/*main主要文字内容结束*/
+
+
+
+
+
+
+
+
+
+
+
+

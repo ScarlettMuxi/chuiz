@@ -1,0 +1,278 @@
+/*导航栏1*/
+/*body {*/
+    /*height: 9000px;*/
+/*}*/
+
+.head {
+    height: 80px;
+    width: 1220px;
+    background-color: #FAFAFA;
+    margin: 0 auto;
+    position: relative;
+}
+.head1 {
+    height: 80px;
+    background-color: #FAFAFA;
+}
+.head ul li {
+    float: left;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.head ul {
+    position: relative;
+    top: -101px;
+    left: 120px;
+}
+.head ul li a {
+    font: 700 18px "微软雅黑";
+    color: #C8CBD6;
+}
+.head ul li a:hover {
+    color: black;
+}
+
+/*购物车*/
+.z_shopping {
+    position: relative;
+    top: -60px;
+    left: 200px;
+    width: 50px;
+    height: 30px;
+}
+.shopping_num {
+    padding: 0 2px;
+    background: red;
+    border-radius: 8px;
+    color: #fff;
+    position: absolute;
+    right: -915px;
+    top: 14px;
+}
+.z_shopping img {
+    margin-left: 830px;
+    margin-top: -121px;
+}
+.body {
+    position: relative;
+}
+
+/*导航栏2*/
+.main {
+    height: 50px;
+    border-top: 2px solid #C8C8C8;
+    border-bottom: 2px solid #C8C8C8;
+    background-color: #FAFAFA;
+    width: 100%;
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.hea {
+    height: 50px;
+
+}
+
+.hea ul li {
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.hea ul {
+    float: left;
+    margin-left: 240px;
+    margin-top: -73px;
+
+}
+
+.hea ul li a {
+    font: 12px "微软雅黑";
+    color: #B7B7B7;
+}
+
+.hea ul li a:hover {
+    color: red;
+}
+
+.hhead2 img {
+    padding-top: 20px;
+}
+
+/*log飞*/
+.chuiz {
+    position: absolute;
+}
+
+/*大胶囊*/
+.jiaol {
+    height: 650px;
+    background: url("../caozuoxitong_images/beijing.jpg");
+}
+.jiaon {
+    width: 1220px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 80px;
+    position: relative;
+
+}
+.jiaoLeft {
+    width: 250px;
+    height: 264px;
+    margin-top: 80px;
+    position: absolute;
+    background: url("../caozuoxitong_images/zuo.png");
+
+}
+.jiaoright {
+    width: 250px;
+    height: 264px;
+    margin-top: 80px;
+    position: absolute;
+    left: 907px;
+    background: url("../caozuoxitong_images/you.png");
+
+}
+.jiaonX {
+    width: 1220px;
+    height: 170px;
+    margin: 0 auto;
+}
+.jiaonX h1 {
+    font-size: 40px;
+    font-family: "微软雅黑";
+    margin: 30px 350px;
+    color: #989898;
+}
+.jiaonX span {
+    font-size: 16px;
+    font-family: "微软雅黑";
+    margin-left: 118px;
+    color: #989898;
+}
+
+/*手机*/
+.zha {
+    height: 375px;
+    width: 1220px;
+    margin: 0 auto;
+    background: #ffffff;
+    text-align: center;
+}
+.shouji11 {
+    width: 1220px;
+    height: 710px;
+    margin: 0 auto;
+}
+.shouji1 {
+    width: 448px;
+    height: 708px;
+    background-image: url("../caozuoxitong_images/iphone.png");
+    float: left;
+}
+.shouji1 video {
+    margin-left: 78px;
+    margin-top: 68px;
+}
+.shouji2 {
+    width: 448px;
+    height: 708px;
+    background-image: url("../caozuoxitong_images/iphone.png");
+    float: right;
+}
+.shouji2 video {
+    margin-left: 78px;
+    margin-top: 68px;
+}
+.shouji111 {
+    height: 170px;
+    width: 1220px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+.shouj {
+    float: left;
+}
+.shou {
+    float: right;
+}
+.shouji33 {
+    width: 1220px;
+    height: 710px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.shouji5 {
+    width: 448px;
+    height: 708px;
+    background-image: url("../caozuoxitong_images/iphone.png");
+    float: left;
+}
+.shouji5 video {
+    margin-left: 78px;
+    margin-top: 68px;
+}
+.shouji6 {
+    width: 448px;
+    height: 708px;
+    background-image: url("../caozuoxitong_images/iphone.png");
+    float: right;
+}
+.shouji6 video {
+    margin-left: 78px;
+    margin-top: 68px;
+}
+.shouji666 {
+    height: 170px;
+    width: 1220px;
+    background-color: #F8F8F8;
+    margin: 0 auto;
+}
+.shouj8 {
+    float: left;
+}
+.shou9 {
+    float: right;
+}
+
+/*切换*/
+.qiehuan {
+    overflow: hidden;
+    text-align: center;
+    height: 700px;
+    position: relative;
+    background-color: #FFFFFF;
+}
+.dian {
+    margin: 20px 0;
+}
+.dian span {
+    font-size: 26px;
+    font-family: "微软雅黑";
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    background-color: #bbbbbb;
+    border-radius: 5px;
+    width: 150px;
+    cursor: pointer;
+}
+.dian span:nth-of-type(1) {
+    background-color: #8B8B8B;
+}
+.qiehuan .tu {
+    position: relative;
+    height: 660px;
+}
+.qiehuan .tu img {
+    width: 1120px;
+    height: 660px;
+    position: absolute;
+    left: 60px;
+}
+.qiehuan .tu img:nth-of-type(2) {
+    display: none;
+}

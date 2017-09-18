@@ -1,0 +1,187 @@
+
+/*页面头部样式*/
+
+.header {
+    height:100px;
+    line-height:100px;
+    background-color: #1a1a1a;
+    background-image: -webkit-linear-gradient(#000,#121212);
+    background-image: linear-gradient(#000,#121212);
+    border-bottom:1px solid #8e8e8e;
+    position:relative;
+}
+
+/*设置 h1 样式*/
+
+/*logo 图片设置  背景插入方式*/
+.nav_content_logo a {
+    background:url(../index_images/global-logo-red@2x.933ea9a3cc1a990a9b76a7badbdb2d53.png) no-repeat 0px 5px;
+    background-size: cover;
+    display:block;
+    width:50px;
+    height:50px;
+    /*设置文字为0 不显文字*/
+    /*font-size:0px;*/
+    /*设置 隐藏文字 -2000px 以上 不显示文字*/
+    text-indent: -9999px;
+    margin-top:25px;
+}
+
+/*设置定位*/
+.nav_content_logo , .nav_content_list , .nav_content_aside {
+    position:relative ;
+}
+
+/*设置中间导航文字 左侧距离*/
+.nav_content_list {
+    margin-left:155px;
+}
+/*设置 元素浮动*/
+.nav_content_logo , .nav_content_list , .nav_content_aside , .nav_content_list li , .nav_content_aside li {
+    float:left;
+
+}
+
+.nav_content_aside  {
+    float:right;
+}
+
+
+.nav_content_aside_cart-wrapper {
+    width:360px;
+    height:314px;
+    text-align:center;
+    border: 1px solid #cfcfcf;
+    border-radius:10px;
+    background-color: #fff;
+    box-shadow: 0 20px 45px rgba(0,0,0,0.2);
+}
+
+
+/* 设置顶部导航文字  为白色*/
+.nav_content_list a {
+    height:28px;
+    color:rgba(255,255,255,0.75);
+    display:block;
+    padding: 0 25px;
+}
+/*鼠标悬停 颜色*/
+.nav_content_list a:hover {
+    color:rgba(255,255,255,1);
+}
+
+/*设置个人中心 图片*/
+
+/*左侧的分割线*/
+.nav_content_aside  .line {
+    width:1px;
+    height:13px;
+    background-color: #242424;
+    margin-top: 44px;
+}
+/**/
+.nav_content_aside {
+    width:159px;
+    height:20px;
+
+}
+
+
+.nav_content_aside_user a {
+    width:16px;
+    height: 17px;
+    display:block;
+    text-indent:-9999px;
+    background:url(../index_images/account-icon.32d87deb02b3d1c3cc5bcff0c26314ac.png) no-repeat -96px -2px;
+    position:absolute;
+    top:43px;
+    left:50px;
+}
+
+.nav_content_aside_user a:hover {
+    background:url(../index_images/account-icon.32d87deb02b3d1c3cc5bcff0c26314ac.png) no-repeat -156px -2px;
+}
+
+/*设置购物车图标*/
+.nav_content_aside_cart a {
+    width:40px;
+    height:40px;
+    display:block;
+    text-indent:-9999px;
+    background:url(../index_images/account-icon.32d87deb02b3d1c3cc5bcff0c26314ac.png) no-repeat -93px -23px ;
+    position:absolute;
+    top:43px;
+    left:100px;
+}
+
+.nav_content_aside_cart a:hover {
+    background:url(../index_images/account-icon.32d87deb02b3d1c3cc5bcff0c26314ac.png) no-repeat -153px -23px ;
+}
+
+/*设置购物车 数字背景*/
+.cart-empty-num i {
+    display:inline-block;
+    color:#fff;
+    font-size:12px;
+    /*宽度去掉 是因为当文字超过2位数时，背景的圆圈会跟随变化*/
+    /*width:20px;*/
+    height:20px;
+    /*是用 padding 是为了将其变成圆形*/
+    padding:0 7px;
+    line-height:20px;
+    text-align:center;
+    border-radius:13px;
+    background-color: #9b9b9b;
+    position:absolute;
+    top:40px;
+    /*最好使用 left 对其 不让当数字超过2位时 会自动向左挤出*/
+    left:130px;
+    /*小手*/
+    cursor:pointer;
+
+    /*z-index: 0;*/
+}
+
+/*设置购物车 隐藏板块  定位*/
+.nav_content_aside_cart-wrapper {
+    /*display:none;*/
+    z-index:999;
+    position:absolute;
+    top:75px;
+    right:0;
+}
+
+
+/*隐藏板块内容*/
+
+.nav-cart-list {
+    position:relative;
+}
+
+.nav-cart-list .cart-ban-jiao {
+    position:absolute;
+    top:-187px;
+    right:37px;
+    display:block;
+    width:16px;
+    height:8px;
+
+    background: url(../index_images/account-icon.32d87deb02b3d1c3cc5bcff0c26314ac.png) no-repeat -50px -43px;
+}
+
+.nav-cart-list .empty h3 {
+    font-size: 18px;
+    color: #333;
+    line-height:0;
+    margin-top:180px;
+    margin-bottom: 7px;
+
+}
+
+.nav-cart-list .empty p {
+    font-size: 12px;
+    line-height:0;
+    color: #bcbcbc;
+    margin-top:23px;
+
+}

@@ -1,0 +1,144 @@
+
+
+/*------------------------------功能-广告一、二、四、五的公共样式start----------------------------------*/
+/*大盒子*/
+.wzh_banner_one,.wzh_banner_two,
+.wzh_banner_four,.wzh_banner_five{
+    width: 100%;
+    background-color: #ededed;
+}
+/*图片*/
+.wzh_banner_one img,.wzh_banner_two img,
+.wzh_banner_four img,.wzh_banner_five img{
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+/*-------------------------------功能-广告一、二、四、五的公共样式end-----------------------------------*/
+
+/*-----------------------------------------功能-轮播图start-------------------------------------------*/
+
+/*------------------------------------功能-上下效果样式start*/
+.wzh_scroll {
+
+    position: relative;
+    height: 720px;
+    background-color: #ededed;
+}
+/*--------------------------------------功能-上下效果样式end*/
+
+/*-----------------------------------------功能-轮播图start*/
+
+/*轮播图*/
+.wzh_scroll .wzh_top {
+    height: 660px;
+    padding-top: 60px;
+    overflow: hidden;
+    margin-top: -3px;
+    position: relative;
+    background: url("../gongneng_images/bg_03.png");
+}
+/*列表项*/
+.wzh_scroll .wzh_top ul {
+    height: 300px;
+    width: 3660px;
+    position: absolute;
+    left: 0;
+    top: 60px;
+}
+/*列表*/
+.wzh_scroll .wzh_top ul li {
+    width: 1220px;
+    height: 300px;
+    line-height: 300;
+    float: left;
+}
+/*列表里的图片*/
+.wzh_scroll .wzh_top ul li img{
+    /*height: 300px;*/
+    float: left;
+    width: 595px;
+    margin-left: 10px;
+
+
+}
+/*左右切换按钮*/
+.wzh_scroll .wzh_top .wzh_switcher {
+    width: 1220px;
+    height: 300px;
+    background-color: rgba(255,255,255,0);
+    position: absolute;
+    left: 0;
+    top: 52px;
+}
+/*左切换按钮*/
+.wzh_scroll .wzh_top .wzh_switcher .wzh_last {
+    width: 600px;
+    height: 300px;
+    background-color: rgba(255,255,255,0);
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+/*右切换按钮*/
+.wzh_scroll .wzh_top .wzh_switcher .wzh_next {
+    width: 600px;
+    height: 300px;
+    background-color: rgba(255,255,255,0);
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+/*------------------------------------------功能-轮播图end*/
+
+/*----------------------------------------功能-无缝滚动start*/
+/*下轮播图*/
+.wzh_scroll .wzh_btm {
+    height: 255px;
+    padding-top: 30px;
+    overflow: hidden;
+    width: 1220px;
+    position: relative;
+    top: -340px;
+}
+/*列表项*/
+.wzh_scroll .wzh_btm ol {
+    height: 300px;
+    width: 3660px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*列表*/
+.wzh_scroll .wzh_btm ol li {
+    width: 1220px;
+    height: 300px;
+    line-height: 300;
+    float: left;
+}
+/*列表图片*/
+.wzh_scroll .wzh_btm ol li img{
+    float: left;
+    width: 595px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+/*------------------------------------------功能-无缝滚动end*/
+
+/*--------------------------------------------功能-轮播图end------------------------------------------*/
+
+/*------------------------------------------功能-置顶按钮start----------------------------------------*/
+.wzh_down a {
+    display: block;
+    width: 54px;
+    height: 54px;
+    position: fixed;
+    z-index:10;
+    right: 10px;
+    bottom: 10px;
+    background: url('../gongneng_images/down.png') no-repeat;
+    opacity:0.5;
+}
+/*------------------------------------------功能-置顶按钮end------------------------------------------*/

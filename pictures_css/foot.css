@@ -1,0 +1,197 @@
+
+/*---------------------------------------页面底部样式start-------------------------------------------*/
+
+
+/*先设置 盒子的高度*/
+
+.footer {
+    height:353px;
+    /* 如果 与上面的板块距离远时，请修改下面这行代码*/
+    /*margin-top:60px;*/
+    border-top: 1px solid #e6e6e6;
+    background-color: #fafafa;
+    position:relative;
+
+}
+
+/*再设置 内容距顶部的距离*/
+.footer_content {
+    height:100px;
+    padding: 100px 0 32px;
+    position:relative;
+    border-bottom:1px solid #e6e6e6;
+}
+
+/*设置文字板块的  左边距离*/
+.footer_content_fl li {
+    width:149px;
+}
+/*快捷连接文字设置*/
+.footer_content_fl_li_ul {
+    margin-top:14px;
+}
+
+.footer_content_fl_li_ul  li+li {
+    margin-top:8px;
+
+}
+
+.footer_content_fl_li_ul  li a {
+    font-size:12px;
+    color:#969696;
+
+}
+
+.footer_content_fl_li_ul  li a:hover{
+    color:#5079d9;
+}
+
+/*文字内容元素 浮动效果*/
+.footer_content_fl_li {
+     font-size:12px;
+     color:#646464;
+     float:left;
+ }
+
+/*右侧浮动*/
+.footer_content_fr {
+    float:right;
+    text-align:right;
+}
+
+
+/*400电话 设置*/
+.footer_content_fr_tel a {
+    font-size:30px;
+    color:#646464;
+}
+
+/*工作时间*/
+.footer_content_fr_time {
+    font-size:12px;
+    color:#c3c3c3;
+    margin-top:5px;
+}
+/*在线帮助*/
+.footer_content_fr_help {
+    position:relative;
+}
+/*li 鼠标悬停改变背景色*/
+
+.footer_content_fr_help a {
+    width: 130px;
+    height: 34px;
+    font-size:16px;
+    color:#5079d9;
+    line-height:34px;
+    text-align:center;
+    background: -webkit-linear-gradient(#fcfcfc,#f5f5f5);
+    background: linear-gradient(#fcfcfc,#f5f5f5);
+    margin-top:8px;
+    border-radius:5px;
+    float:right;
+    border:1px solid #dcdcdc;
+}
+.footer_content_fr_help a:hover{
+    background: #f5f5f5;
+}
+
+
+/*中英文切换 按钮*/
+.footer_content_language {
+    width:118px;
+    height:100px;
+    border:1px solid #dadada;
+    border-radius:8px;
+    overflow: hidden;
+    /*盒子的投影*/
+    box-shadow: 0 3px 10px rgba(0,0,0,0.3);
+    position:absolute;
+    top:183px;
+    right:-35px;
+}
+
+
+/* 上面的英文部分*/
+.footer_content_language_top {
+    height:50px;
+    line-height:51px;
+    text-align: center;
+    font-size:12px;
+    background-color: #fff;
+    border-bottom:1px solid #f5f5f5;
+}
+
+.footer_content_language_top a {
+    color:#666;
+}
+
+/* 下面的中文部分*/
+.footer_content_language_bot {
+    height:50px;
+    line-height:51px;
+    /*text-align: center;*/
+    font-size:12px;
+    background-color: #f5f5f5;
+    position:relative;
+    border-top:1px solid #ebebeb;
+}
+.footer_content_language_bot a {
+    color:#45474b;
+    padding-left:38px;
+}
+
+.footer_content_language_bot i {
+    font-size:12px;
+    position:absolute;
+    top:2px;
+    right:35px;
+}
+
+
+
+/*最底部网站信息*/
+.footer_content_bot {
+    font-size:12px;
+    color:#757575;
+    margin-top:40px;
+    margin-bottom:50px;
+}
+
+/*全部左浮动*/
+.footer_content_bot_copy , .footer_content_bot_company , .footer_content_bot_privacy{
+    float:left;
+}
+/*公司名称*/
+.footer_content_bot_company{
+    margin: -1px 10px 0 5px;
+}
+
+/*连接设置*/
+.footer_content_bot_privacy a {
+    color:#84a3e3;
+}
+
+.footer_content_bot_privacy li {
+    float: left;
+    line-height: 12px;
+    padding: 1px 10px 0;
+    border-left: 1px solid #ccc;
+}
+
+.footer_content_bot_copy_icp {
+    clear: both;
+    padding: 10px 0 0;
+    height: 15px;
+}
+
+.footer_content_bot_copy_icp a {
+    color:#bdbdbd;
+}
+
+.footer_content_bot_copy_icp span+span{
+    margin-left:15px;
+}
+/*-------------------------------------------页面底部样式end------------------------------------------*/
+
+

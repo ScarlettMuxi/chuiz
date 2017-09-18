@@ -1,0 +1,49 @@
+html,body,div,h1,h2,h3,h4,h5,input,ul,ol,li,p,img{
+    margin: 0;
+    padding:0;
+}
+h1,h2,h3,h4,h5{
+    text-decoration:none;
+    font-style: normal;
+}
+.w{
+    width: 1220px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.hide{
+    display: none;
+}
+ul{display: inline-block;}
+s,i,em{
+    text-decoration: none;
+    font-style: normal;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.hide{
+    display: none;
+}
+.show{
+    display:block;
+}
+body {
+    overflow-scroll:hidden;
+    overflow-y: hidden;
+}

@@ -1,0 +1,382 @@
+body{
+    background-color: #ededed;
+}
+/*----------顶部公共样式区 高度100px  start------------*/
+.h_top_nav{
+    height: 100px;
+}
+/*----------顶部公共样式区 高度100px  end------------*/
+
+/*--------------导航部分start-----------------------*/
+
+.h_nav_header .content ul.first {
+    height: 90px;
+    /*background-color: pink;*/
+    line-height: 28px;
+}
+.h_nav_header .content ul.first li ,span{
+    float:left;
+}
+.h_nav_header .content ul.first li {
+    position: relative;
+    height: 90px;
+    line-height: 90px;
+}
+.h_nav_header .content ul.first li span {
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+.h_nav_header .content ul.first li a {
+    display: block;
+    padding:0 20px;
+    font-size: 14px;
+}
+
+.h_nav_header .content ul.first li.first a {
+    padding-left: 10px;
+}
+
+/*导航手机部分，鼠标移入显示一个div*/
+.h_nav_header .content ul .phone {
+    position: relative;
+}
+.h_nav_header .content ul.first li .phone_hide {
+    width: 1220px;
+    height: 322px;
+    padding-top: 52px;
+    text-align: center;
+    position: absolute;
+    top:90px;
+    left:-58px;
+    background-color: #ededed;
+    border-top: 1px solid #ccc;
+    opacity: 1;
+    z-index: 100;
+    display:none;
+}
+.h_nav_header .content .phone_hide ul{
+    margin: 0 auto;
+    width:500px ;
+}
+.h_nav_header .content .phone_hide ul li {
+    float:left;
+    width: 234px;
+    height: 260px;
+    font-size: 14px;
+    position: relative;
+    /*background-color: pink;*/
+}
+
+.h_nav_header .content .phone_hide ul li.first{
+    border-right:1px solid #ccc;
+}
+.h_nav_header .content .phone_hide ul li a p{
+    color:#666;
+    padding-top: 10px;
+    line-height: 14px;
+    font-size: 14px;
+}
+
+.h_nav_header .content .phone_hide ul li a p+p{
+    color:#DB2424;
+}
+
+.h_nav_header .content .phone_hide ul li a img {
+    position: absolute;
+    top:0px;
+    left:36px;
+}
+
+/*-----复制一个fixed导航栏------------*/
+
+.h_nav_fixed {
+    width: 1349px;
+    height: 60px;
+    padding-left: 65px;
+    line-height: 28px;
+    background:url("../buyFirst_images/title_bg_03.png") repeat-x;
+    display:none;
+}
+.h_nav_fixed ul.first li ,span{
+    float:left;
+}
+.h_nav_fixed ul.first li {
+    position: relative;
+    height: 60px;
+    line-height: 60px;
+}
+.h_nav_fixed ul.first li span {
+    position: absolute;
+    top:0px;
+    right:0px;
+}
+.h_nav_fixed ul.first li a {
+    display: block;
+    padding:0 20px;
+    font-size: 14px;
+}
+
+.h_nav_fixed ul.first li.first a {
+    padding-left: 10px;
+}
+
+/*导航手机部分，鼠标移入显示一个div*/
+.h_nav_fixed ul .phone {
+    position: relative;
+}
+.h_nav_fixed ul.first li .phone_hide {
+    width: 1220px;
+    height: 322px;
+    padding-top: 52px;
+    text-align: center;
+    position: absolute;
+    top:60px;
+    left:-58px;
+    background-color: #ededed;
+    border-top: 1px solid #ccc;
+    opacity: 1;
+    display:none;
+}
+.h_nav_fixed .phone_hide ul{
+    margin: 0 auto;
+    width:500px ;
+}
+.h_nav_fixed .phone_hide ul li {
+    float:left;
+    width: 234px;
+    height: 260px;
+    font-size: 14px;
+    position: relative;
+    /*background-color: pink;*/
+}
+
+.h_nav_fixed .phone_hide ul li.first{
+    border-right:1px solid #ccc;
+}
+.h_nav_fixed .phone_hide ul li a p{
+    color:#666;
+    padding-top: 10px;
+    line-height: 14px;
+    font-size: 14px;
+}
+
+.h_nav_fixed .phone_hide ul li a p+p{
+    color:#DB2424;
+}
+
+.h_nav_fixed .phone_hide ul li a img {
+    position: absolute;
+    top:0px;
+    left:36px;
+}
+
+
+/*--------------导航部分end-----------------------*/
+
+
+/*---------------优先购买码start-----------------*/
+.h_gray_box {
+    height: 460px;
+    background-color: #fff;
+    padding-bottom:100px;
+}
+/*标题部分*/
+.h_gray_box .titile {
+    color: #333;
+    height: 60px;
+    line-height: 60px;
+    font-size: 1.5em;
+    text-align: center;
+    background:url("../buyFirst_images/title_bg_03.png") repeat-x;
+}
+
+/*主体输入框部分*/
+.h_gray_box .box_inner {
+    height: 400px;
+    background: url("../buyFirst_images/form-bg-cdkey_f39126e2f5.png") 80px 78px no-repeat;
+    position: relative;
+}
+/*右侧盒子进行定位*/
+.h_gray_box .box_inner .big_info {
+    position: absolute;
+    top:160px;
+    left:650px;
+    /*background-color: #ccc;*/
+    width: 370px;
+    height: 204px;
+}
+/*各个输入框共同样式*/
+.h_gray_box .box_inner .big_info .small_info>div{
+    box-shadow: inset 0 3px 5px 0 rgba(0,0,0,.08);
+    border: 1px solid #ccc;
+}
+/*第一个输入框*/
+.h_gray_box .box_inner .big_info .small_info .goumaima {
+    width: 358px;
+    height: 48px;
+    border: 1px solid #ccc;
+    line-height: 46px;
+    border-radius: 6px;
+    padding-left: 10px;
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.h_gray_box .box_inner .big_info .small_info .goumaima input{
+    line-height: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 357px;
+    /*box-sizing: border-box;*/
+}
+/*必填小div*/
+.h_gray_box .box_inner .big_info .small_info .goumaima>div {
+    position: absolute;
+    right: 11px;
+    top:11px;
+    background: #E66157;
+    width: 42px;
+    height: 25px;
+    line-height:25px;
+    border-radius: 5px;
+    text-align: center;
+    color:#fff;
+    font-size: 12px;
+    display: none;
+}
+/*第二个输入框*/
+.h_gray_box .box_inner .big_info .small_info .yanzhengma {
+    width: 200px;
+    height: 48px;
+    border: 1px solid #ccc;
+    line-height: 48px;
+    border-radius: 6px;
+    padding-left: 10px;
+    position: relative;
+    margin-bottom: 18px;
+}
+/*图片部分*/
+.h_gray_box .box_inner .big_info .small_info .yanzhengma span {
+    width: 140px;
+    height: 48px;
+    border-radius: 7px;
+    display: block;
+    position: absolute;
+    top:0px;
+    left:227px;
+}
+
+.h_gray_box .box_inner .big_info .small_info .yanzhengma span i{
+    width: 140px;
+    height: 48px;
+    border-radius: 7px;
+    position:absolute;
+    top:0px;
+    left:0;
+    display: none;
+    z-index: 5;
+}
+.h_gray_box .box_inner .big_info .small_info .yanzhengma span i img {
+    z-index: 10;
+    position:absolute ;
+    top:12px;
+    left:50px;
+}
+
+.h_gray_box .box_inner .big_info .small_info .yanzhengma>div {
+    position: absolute;
+    right: 11px;
+    top:11px;
+    background: #E66157;
+    width: 42px;
+    height: 25px;
+    line-height:25px;
+    border-radius: 5px;
+    text-align: center;
+    color:#fff;
+    font-size: 12px;
+    display: none;
+}
+
+/*最下面的验证框*/
+
+.h_gray_box .box_inner .big_info .yanzheng {
+    width: 370px;
+    height: 46px;
+    background-color: #84a3e3;
+    border-radius: 6px;
+}
+.h_gray_box .box_inner .big_info .yanzheng a {
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    width: 370px;
+    height:46px;
+    text-align: center;
+    line-height: 46px;
+}
+
+
+/*---------------优先购买码end-------------------*/
+
+
+
+/*-----------------问题信息部分start------------------*/
+.h_question_info {
+    background-color: #fff;
+    height: 498px;
+    margin-bottom: 50px;
+}
+.h_question_info .box {
+    width: 1098px;
+    margin: 0 auto;
+    border-top: 1px solid #e5e5e5;
+    line-height: 1.25;
+    font-size: 14px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #999;
+}
+/*上下两部分的共同样式*/
+.h_question_info .box h6 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 34px;
+    margin-bottom: 7px;
+    color:#333;
+}
+/*dd里面的文字*/
+.h_question_info .box  dd {
+    line-height: 24px;
+    font-size: 14px;
+    color:#999;
+}
+
+/*了解信息部分*/
+.h_question_info .box .liaojie {
+    padding-bottom:20px;
+}
+.h_question_info .box .liaojie strong {
+    color: #333;
+}
+
+/*常见问题部分*/
+.h_question_info .box .changjianwenti dt {
+    color: #333;
+    line-height: 24px;
+}
+
+.h_question_info .box .changjianwenti dd{
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+/*-----------------问题信息部分end--------------------*/
